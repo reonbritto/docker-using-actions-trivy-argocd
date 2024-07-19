@@ -17,4 +17,4 @@ spec:
         image: reonbritto/python:main
         ports:
         - containerPort: 5000
-      type: LoadBalancer
+        type: LoadBalancer
