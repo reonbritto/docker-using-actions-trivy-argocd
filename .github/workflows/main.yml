@@ -41,8 +41,8 @@ jobs:
         with:
           image-ref: ${{ steps.meta.outputs.tags }}
           ignore-unfixed: true
-        #   format: 'sarif'
-        #   output: 'trivy-results.sarif'
+          format: 'sarif'
+          output: 'trivy-results.sarif'
 
 
       # - name: Save Trivy scan results
